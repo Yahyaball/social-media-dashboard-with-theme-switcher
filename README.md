@@ -42,7 +42,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/Yahyaball/social-media-dashboard-with-theme-switcher
-- Live Site URL: https://social-media-dashboard-with-theme-switcher-8w51vpesc.vercel.app
+- Live Site URL: https://social-media-dashboard-with-theme-s-woad.vercel.app/
 
 ## My process
 
