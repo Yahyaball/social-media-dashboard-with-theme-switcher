@@ -1,0 +1,78 @@
+@use "variables" as *;
+
+@mixin tablet {
+  @media (min-width: #{$bp-tablet}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$bp-desktop}) {
+    @content;
+  }
+}
+
+@mixin gradient-1($degrees) {
+  background: linear-gradient(
+    #{$degrees}deg,
+    rgba(253, 195, 102, 1) 0%,
+    rgba(238, 135, 126, 1) 51%,
+    rgba(223, 72, 150, 1) 100%
+  );
+}
+@mixin gradient-2($degrees) {
+  background: linear-gradient(
+    #{$degrees}deg,
+    rgba(64, 219, 130, 1) 0%,
+    rgba(105, 110, 221, 1) 100%
+  );
+}
+
+@mixin text-preset-1 {
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 85%;
+  letter-spacing: -2px;
+}
+
+@mixin text-preset-2 {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 125%;
+  letter-spacing: 0rem;
+}
+
+@mixin text-preset-3 {
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 125%;
+  letter-spacing: 0rem;
+}
+
+@mixin text-preset-4 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 125%;
+  letter-spacing: 0rem;
+}
+
+@mixin text-preset-5 {
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 125%;
+  letter-spacing: 0rem;
+}
+
+@mixin text-preset-6-bold {
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 125%;
+  letter-spacing: 0rem;
+}
+
+@mixin text-preset-6-regular {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 125%;
+  letter-spacing: 0.3125rem;
+}
